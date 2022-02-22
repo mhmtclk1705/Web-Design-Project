@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/Z5xwQ_W1.jpg" type="image/x-icon">
+    <title>Home</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #35424A;
+
+        }
+        .cwd-header{
+            display: flex;
+            justify-content: space-between;
+            color: white;
+            font-size: 0.6rem;
+            padding: 15px;
+            padding-bottom: 10px;
+            border-bottom:2px solid #cc469a;
+        }
+        .cwd-header-pages ul{
+            display: flex;
+            flex-direction: row;
+            font-size: 0.8rem;
+        }
+        .cwd-header-pages li{
+            margin: 10px;
+            list-style-type: none;
+        }
+        .cwd-header-pages a {
+            text-decoration: none;
+            color: white;
+        }
+        .cwd-header-pages a:hover{
+            color: #cc469a;
+            cursor: pointer;
+        }
+        .cwd-img-content{
+            background-image: url(img/showcase.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 310px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        .cwd-img-content p{
+            margin-top: 30px;
+        }
+        .cwd-subscribe{
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            padding: 15px;
+            font-weight: 600;
+            padding-left: 15px;
+        }
+        .cwd-subscribe-right input{
+            border-radius: 2px;
+            border: none;
+            padding: 4px;
+            margin-right: 5px;
+        }
+        .cwd-subscribe-right button {
+            padding: 2px 20px;
+            border: none;
+            background-color: #E9412A;
+            border-radius: 3px;
+            color: white;
+        }
+        .cwd-content{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.8rem;
+            background-color: white;
+               
+        }
+    
+        .cwd-content img {
+            /* justify-content: center; */
+            width: 60px;
+            margin-bottom: 10px;
+            /* margin-left: 120px; */
+            
+        }
+        
+        .cwd-content h4{
+            text-align: center;
+        }
+        .cwd-content p {
+            text-align: center;
+            padding: 5px 20px;
+        }
+        .cwd-footer{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 0.6rem;
+            margin: 10px;
+        }
+        .cwd-footer img{
+            margin: 5px;
+            height: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="cwd">
+        <div class="cwd-header">
+            <div class="cwd-header-cwd"><h1><span style="color: #cc469a;">Clarusway</span> Web Design</h1></div>
+            <div class="cwd-header-pages"><ul>
+                <li><a href="index.html" style="color:#cc469a">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+            </ul></div>
+        </div>
+        <div class="cwd-img-content">
+                        
+            <h1>Professional Web Design</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur corporis illo numquam quaerat magnam officiis.</p>
+        
+        </div>
+        <div class="cwd-subscribe">
+            <div class="cwd-subscribe-left"><p>Subscribe to Our Newsletter</p></div>
+            <div class="cwd-subscribe-right"><input type="email" name="email" id="email" placeholder="Enter Email..."><button>Subscribe</button></div>
+        </div>
+        <div class="cwd-content">
+            <div class="cwd-content-html">
+                <img src="img/logo_html.png" alt="html">
+                <h4>HTML5 Markup</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, impedit animi eaque quidem ducimus qui!</p>
+            </div>
+            <div class="cwd-content-css">
+                <img src="img/logo_css.png" alt="css">
+                <h4>CSS3 Styling</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident neque maxime facilis omnis sapiente libero?</p>
+            </div>
+            <div class="cwd-content-gd">
+                <img src="img/logo_brush.png" alt="graphic-design">
+                <h4>Graphic Design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nisi quod dicta repellendus aspernatur fugit!</p>
+            </div>
+        </div>
+        <div class="cwd-footer">
+            <p>Clarusway Web Design, Copyright @ 2022</p>
+            <img src="img/clarusway_logo.png" alt="cwlogo">
+        </div>
+    </div>
+</body>
+</html>
